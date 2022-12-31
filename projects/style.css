@@ -1,0 +1,209 @@
+/* Heading */
+.heading {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1.8rem;
+}
+
+.heading .small-heading--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e9ecef;
+
+  font-size: 4.4rem;
+}
+
+.heading span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #e9ecef;
+}
+
+/* Projects */
+.projects {
+  display: inline-block;
+  margin-top: 9.6rem;
+  margin-bottom: 3.6rem;
+
+  width: 100%;
+}
+
+/* Featured project */
+
+.featured {
+  display: inline-block;
+  width: 100%;
+
+  border: 1px solid #343a40;
+  border-radius: 16px;
+  padding: 3.6rem;
+
+  margin-top: 6.4rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  gap: 2.4rem;
+}
+
+.featured .title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 1.8rem;
+}
+
+.title span {
+  color: #e9ecef;
+  font-size: 3.4rem;
+  font-weight: 500;
+}
+
+.grid--left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.grid--left .description {
+  color: #a3a3a3;
+  font-size: 1.9rem;
+  line-height: 1.4;
+}
+
+.grid--left .buttons {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+
+  gap: 1.2rem;
+}
+
+.grid--left .category {
+  padding-bottom: 0;
+  margin-bottom: 1.2rem;
+}
+
+.buttons .tertiary:link,
+.buttons .tertiary:visited {
+  background-color: transparent;
+  text-decoration-color: #9775fa;
+  transition: all 0.3s;
+}
+
+.tertiary:hover,
+.tertiary:active {
+  text-decoration: underline;
+  box-shadow: none;
+  text-decoration-color: #9775fa;
+}
+
+.grid--right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+.grid--right img {
+  width: 100%;
+  height: auto;
+}
+
+/* Mobile view */
+
+.grid--mobile-view {
+  display: none;
+}
+
+/* Projects (All) */
+
+.projects--all {
+  margin-top: 4.8rem;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  background-color: transparent;
+}
+
+.project--heading {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.project:hover,
+.project:active {
+  background-color: transparent;
+  border: 1.5px solid #343a40;
+  cursor: default;
+}
+
+.project-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  transform: translateY(1px);
+}
+
+.project-name {
+  color: #e9ecef;
+  font-weight: 500;
+  font-size: 2.1rem;
+}
+
+.project--content {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+}
+
+.category .e-commerce::after {
+  content: "E-commerce";
+  text-transform: uppercase;
+  display: block;
+
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+
+  color: #1c7ed6;
+  background-color: #030d15;
+  border: 1px solid #1971c1;
+  border-radius: 16px;
+}
+
+.category .portfolio::after {
+  content: "Portfolio";
+  text-transform: uppercase;
+  display: block;
+
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+
+  color: #868e96;
+  background-color: #0d0e0f;
+  border: 1px solid #798087;
+  border-radius: 16px;
+}

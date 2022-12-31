@@ -1,0 +1,241 @@
+/* Heading */
+.heading {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1.8rem;
+}
+
+.heading .small-heading--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e9ecef;
+
+  font-size: 4.4rem;
+}
+
+.heading span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #e9ecef;
+}
+
+/* About me */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+
+  padding: 0 6.4rem;
+
+  margin-top: 4.8rem;
+  margin-bottom: 3.6rem;
+}
+
+.content img {
+  width: 16.4rem;
+  height: auto;
+}
+
+.content span {
+  font-weight: 300;
+  font-size: 1.9rem;
+  color: #a3a3a3;
+  line-height: 1.4;
+}
+
+.content .link:link,
+.content .link:visited {
+  color: #a3a3a3;
+  text-decoration: 3px underline;
+  text-decoration-color: #343a40;
+
+  transition: all 0.2s;
+}
+
+.content .link:hover,
+.content .link:active {
+  text-decoration-color: #a3a3a3;
+}
+
+.heart {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  transform: translateY(2px);
+  color: #9775fa;
+
+  pointer-events: none;
+}
+
+/* Technologies */
+
+.technologies-list {
+  margin-top: 4.8rem;
+  margin-left: 3.6rem;
+  margin-bottom: 3.6rem;
+}
+
+/* Certificates */
+.certificates-section {
+  padding: 3.6rem 0;
+}
+
+.certificates {
+  display: block;
+  margin: 2.4rem 0;
+}
+
+.certificate {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 3.6rem;
+  padding: 1.8rem 0;
+}
+
+.certificate .small-heading--icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.4rem;
+
+  margin-right: 2.4rem;
+
+  transform: translateY(11px);
+}
+
+.certificate-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+
+  width: 100%;
+}
+
+.certificate .name {
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #e9ecef;
+}
+
+.certificate .details {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  color: #a3a3a3;
+}
+
+.certificate .buttons {
+  margin-left: 1.8rem;
+}
+
+.certificates .border {
+  margin: 1.8rem auto;
+  border-top: 2px solid #343a40;
+  width: 90%;
+}
+
+/* Uses */
+
+.desk {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+
+  padding-top: 4.8rem;
+  padding-bottom: 2.4rem;
+  margin-left: 3.6rem;
+}
+
+.general-apps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+
+  padding-top: 2.4rem;
+  padding-bottom: 1.8rem;
+  margin-left: 3.6rem;
+}
+
+.dev-apps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+
+  padding-top: 2.4rem;
+  padding-bottom: 1.8rem;
+  margin-left: 3.6rem;
+}
+
+.title {
+  display: block;
+
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #e9ecef;
+  padding-bottom: 1.8rem;
+}
+
+.uses-container {
+  padding-bottom: 2.8rem;
+}
+
+.element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.8rem;
+
+  color: #e9ecef;
+
+  padding-bottom: 1.2rem;
+}
+
+.element {
+  font-size: 2rem;
+}
+
+.element svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: #e9ecef;
+  fill: #e9ecef;
+
+  pointer-events: none;
+}
+
+.element span {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.uses-content {
+  display: block;
+  color: #a3a3a3;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.uses-content .link:link,
+.uses-content .link:visited {
+  color: #a3a3a3;
+  text-decoration: 3px underline;
+  text-decoration-color: #343a40;
+
+  transition: all 0.2s;
+}
+
+.uses-content .link:hover,
+.uses-content .link:active {
+  text-decoration-color: #a3a3a3;
+}

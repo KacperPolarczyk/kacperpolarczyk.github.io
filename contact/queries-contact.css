@@ -1,0 +1,9 @@
+/* ****************************** */
+/* BELOW 704px (Tablets) */
+/* ****************************** */
+
+@media (max-width: 44em) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

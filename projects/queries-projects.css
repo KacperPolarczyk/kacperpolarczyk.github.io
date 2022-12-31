@@ -1,0 +1,28 @@
+/* ****************************** */
+/* BELOW 832px (Tablets) */
+/* ****************************** */
+
+@media (max-width: 56em) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--left {
+    gap: 2.4rem;
+  }
+
+  .grid--right img {
+    display: none;
+  }
+
+  /* Mobile view */
+
+  .grid--mobile-view {
+    display: block;
+  }
+
+  .grid--mobile-view img {
+    width: 100%;
+    height: auto;
+  }
+}
