@@ -1,0 +1,415 @@
+/* ****************************** */
+/* BELOW 1169px (Smaller desktops) */
+/* ****************************** */
+
+@media (max-width: 73em) {
+  .container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 7.4rem;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding: 0 7.4rem;
+  }
+
+  /* NAV */
+  .container-nav {
+    padding: 0 8rem;
+  }
+
+  /* HERO */
+  .hero--text {
+    font-size: 4.6rem;
+  }
+
+  .hero p {
+    font-size: 2.2rem;
+  }
+}
+
+/* ****************************** */
+/* BELOW 1057px (Tablets) */
+/* ****************************** */
+
+@media (max-width: 66em) {
+  html {
+    font-size: 60%;
+  }
+
+  .container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 6.4rem;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding: 0 6.4rem;
+  }
+
+  /* HERO */
+
+  .container-nav {
+    padding: 0 6.4rem;
+  }
+
+  .hero--text {
+    font-size: 4.4rem;
+  }
+
+  .hero p {
+    font-size: 2rem;
+  }
+
+  /* ABOUT ME */
+
+  .languages {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.4rem;
+  }
+
+  /* SERVICES */
+
+  .services-container {
+    display: block;
+    margin: 3.6rem 4.4rem;
+  }
+}
+
+/* ****************************** */
+/* BELOW 960px (Tablets) */
+/* ****************************** */
+
+@media (max-width: 60em) {
+  html {
+    font-size: 58.25%;
+  }
+
+  .container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 5.4rem;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding: 0 5.4rem;
+  }
+
+  /* NAV */
+  .container-nav {
+    padding: 0 5.4rem;
+  }
+
+  .nav--hyperlink {
+    display: none;
+  }
+
+  /* mobile */
+
+  .btn--mobile-menu {
+    display: block;
+  }
+
+  /* --- */
+
+  .nav-open .nav-mobile-container {
+    transform: translateY(0%);
+    visibility: visible;
+  }
+
+  .nav-mobile-container {
+    transform: translateY(-100%);
+  }
+
+  .nav-open .container-nav {
+    background-color: #121213;
+  }
+  .nav-open .nav-hyperlinks {
+    display: none;
+  }
+
+  .nav-open .mobile-hyperlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+
+    gap: 2.4rem;
+  }
+
+  .nav-open .mobile--hyperlink {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 4.8rem;
+  }
+
+  /* HERO */
+
+  .hero--text {
+    font-size: 4.2rem;
+  }
+
+  .hero p {
+    font-size: 1.8rem;
+    width: 60%;
+  }
+
+  /* SERVICES */
+
+  .services-container {
+    display: block;
+    margin: 3.6rem 2.4rem;
+  }
+}
+
+/* ****************************** */
+/* BELOW 880px (Tablets) */
+/* ****************************** */
+
+@media (max-width: 55em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  /* NAV */
+
+  .container-nav {
+    padding: 0 3.6rem;
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PLAYLISTS */
+
+  .playlists-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ****************************** */
+/* BELOW 832px (Tablets) */
+/* ****************************** */
+
+@media (max-width: 52em) {
+  .container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.6rem;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding: 0 5.4rem;
+  }
+
+  /* HERO */
+
+  .hero {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .hero--name {
+    text-align: start;
+    font-size: 1.5rem;
+  }
+
+  .hero--text {
+    width: 90%;
+    text-align: start;
+    font-size: 3.6rem;
+  }
+
+  .hero p {
+    text-align: start;
+    width: 80%;
+  }
+
+  /* ABOUT ME */
+
+  .about-me-section {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 2.4rem;
+  }
+
+  .about-me-left {
+    align-items: start;
+  }
+
+  .about-me-left img {
+    width: 30%;
+    height: auto;
+  }
+
+  .languages {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+  }
+
+  /* SERVICES */
+
+  .services-container {
+    display: block;
+    margin: 3.6rem 0;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features--grid {
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-around;
+
+    gap: 1.8rem;
+  }
+
+  .feature {
+    align-items: start;
+    text-align: center;
+  }
+}
+
+/* ****************************** */
+/* BELOW 704px (Tablets) */
+/* ****************************** */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 55.25%;
+  }
+
+  /* SERVICES */
+
+  .features--grid {
+    grid-template-columns: repeat(1, auto);
+    justify-content: space-around;
+
+    gap: 1.8rem;
+  }
+
+  .feature {
+    align-items: center;
+    text-align: center;
+  }
+
+  /* FOOTER */
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+
+    height: auto;
+  }
+
+  .footer .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+
+    text-align: center;
+  }
+
+  .footer .right {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* ****************************** */
+/* BELOW 528px (Phone) */
+/* ****************************** */
+
+@media (max-width: 33em) {
+  /* HERO */
+
+  .hero--name {
+    font-size: 1.6rem;
+  }
+
+  .hero--text {
+    font-size: 3.6rem;
+    width: 100%;
+  }
+
+  .hero p {
+    font-size: 1.8rem;
+    width: 85%;
+  }
+
+  .mobile-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  /* ABOUT ME */
+
+  .about-me-right .text {
+    line-height: 1.4;
+  }
+
+  .about-me-left img {
+    width: 35%;
+    height: auto;
+  }
+
+  .languages {
+    grid-template-columns: 1fr;
+    gap: 2.8rem;
+  }
+}
+
+/* ****************************** */
+/* BELOW 448px (Phone) */
+/* ****************************** */
+
+@media (max-width: 25em) {
+  /* HERO */
+
+  .hero--name {
+    font-size: 1.55rem;
+  }
+
+  .hero--text {
+    font-size: 2.9rem;
+    width: 105%;
+  }
+
+  .hero p {
+    font-size: 1.7rem;
+    width: 90%;
+  }
+
+  /* ABOUT ME */
+
+  .about-me-left img {
+    width: 40%;
+    height: auto;
+  }
+
+  /* FOOTER */
+
+  .footer .right .social-media--icons {
+    color: #a3a3a3;
+    padding: 0.6rem 1.4rem;
+    /* font-size: 2.2rem; */
+
+    transition: all 0.3s;
+  }
+}
