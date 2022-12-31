@@ -1,0 +1,176 @@
+/* Heading */
+.heading {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1.8rem;
+}
+
+.heading .small-heading--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e9ecef;
+
+  font-size: 4.4rem;
+}
+
+.heading span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #e9ecef;
+}
+
+/* Playlists */
+
+.playlists-grid a {
+  text-decoration: none;
+}
+
+/* Playlist */
+
+.playlist--container {
+  /* 1140px */
+  max-width: 120rem;
+  margin: 0 auto;
+
+  margin-top: 9.6rem;
+}
+
+.back {
+  display: flex;
+  margin-bottom: 2.4rem;
+}
+
+.back a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+
+  text-decoration: none;
+
+  color: #e9ecef;
+  font-size: 1.8rem;
+  font-weight: 500;
+
+  border-radius: 16px;
+}
+
+.back a:hover,
+.back a:active {
+  text-decoration: underline;
+  text-decoration-color: #b197fc;
+}
+
+.playlist--heading {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  width: 100%;
+
+  margin-bottom: 3.6rem;
+
+  transition: all 0.3s;
+}
+
+.playlist--heading img {
+  width: 30%;
+  height: auto;
+
+  border-radius: 16px;
+}
+
+.playlist--content {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 0.4rem;
+}
+
+.playlist--content .title {
+  font-size: 4.6rem;
+  font-weight: 600;
+  color: #e9ecef;
+}
+
+.playlist--content .author {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: #a3a3a3;
+}
+
+.playlist--buttons {
+  margin-top: 1.8rem;
+}
+
+.playlist--buttons-mobile {
+  display: none;
+}
+
+.playlist--button {
+  display: flex;
+  flex-direction: row;
+  gap: 1.2rem;
+}
+
+.playlist--button a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+
+  transition: all 0.3s;
+}
+
+.playlist--button a:hover,
+.playlist--button a:active {
+  filter: brightness(85%);
+}
+
+svg {
+  transform: scale(90%);
+}
+
+.apple-music {
+  color: #e9ecef;
+  background-color: #f94c57;
+
+  border-radius: 16px;
+}
+
+.spotify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #e9ecef;
+  background-color: #1db954;
+
+  border-radius: 16px;
+}
+
+.playlist--description {
+  display: block;
+
+  color: #a3a3a3;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.playlist--container .border {
+  margin: 3.6rem auto;
+  border-top: 2px solid #343a40;
+  width: 90%;
+}
