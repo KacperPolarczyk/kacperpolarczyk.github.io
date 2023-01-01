@@ -5,10 +5,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
- Coming soon!
+Coming soon!
   
- Website under construction.
-  
- 
 
 
