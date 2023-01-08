@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kacper Polarczyk | Chill</title>
+
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
+
+    <!-- IOS ICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <!-- ANDROID ICON -->
+    <link rel="manifest" href="../site.webmanifest" />
+
+    <!-- iOS / MacOS Safari Theme Color -->
+    <meta
+      name="theme-color"
+      content="#121213"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#121213"
+      media="(prefers-color-scheme: dark)"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../src/css/general.css" />
+    <link rel="stylesheet" href="../style.css" />
+
+    <link rel="stylesheet" href="../src/css/queries.css" />
+
+    <link rel="stylesheet" href="../playlists/playlists.css" />
+    <link rel="stylesheet" href="../playlists/queries-playlists.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <div class="nav">
+        <div class="container-nav">
+          <div class="nav-left">
+            <a href=".././">
+              <img
+                src="../src/img/project-logo.png"
+                alt="Logo"
+                class="nav-logo"
+              />
+            </a>
+          </div>
+          <div class="nav-right">
+            <div class="nav-hyperlinks">
+              <a class="nav--hyperlink" href="../">Home</a>
+              <a class="nav--hyperlink" href="../about-me/">About me</a>
+              <a class="nav--hyperlink" href="../projects/">Projects</a>
+              <!-- <a class="nav--hyperlink" href="#">Blog</a> -->
+              <a class="nav--hyperlink" href="../contact/">Contact</a>
+            </div>
+
+            <div class="btn--mobile-menu">
+              <svg
+                class="hamburger hamburgerRotate hamburger--stroke"
+                viewBox="0 0 100 100"
+                width="50"
+                onclick="this.classList.toggle('active')"
+              >
+                <path
+                  class="line top"
+                  d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20"
+                />
+                <path class="line middle" d="m 70,50 h -40" />
+                <path
+                  class="line bottom"
+                  d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="nav-mobile">
+      <div class="nav-mobile-container">
+        <div class="mobile-hyperlinks">
+          <a class="mobile--hyperlink" href="../">Home</a>
+          <a class="mobile--hyperlink" href="../about-me/">About me</a>
+          <a class="mobile--hyperlink" href="../projects/">Projects</a>
+          <a class="mobile--hyperlink" href="../contact/">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Playlist -->
+    <section class="container">
+      <div class="playlist--container">
+        <div class="back">
+          <a href="javascript:window.history.back();"
+            ><ion-icon name="chevron-back"></ion-icon>Back</a
+          >
+        </div>
+
+        <div class="playlist--heading">
+          <img
+            src="../src/img/Playlist/Playlist--3am.png"
+            class="playlist--cover"
+            alt="Chill playlist cover"
+          />
+
+          <div class="playlist--content">
+            <span class="title">3AM</span>
+            <span class="author">Kacper Polarczyk</span>
+
+            <div class="playlist--buttons">
+              <div class="playlist--button">
+                <a
+                  href="https://music.apple.com/pl/playlist/3am/pl.u-aZb0kgvT1mWExpN"
+                  target="_blank"
+                  class="apple-music"
+                >
+                  <ion-icon
+                    name="musical-notes"
+                    class="small-content--icon"
+                  ></ion-icon>
+                  Apple Music</a
+                >
+
+                <!-- <a
+                  href="https://open.spotify.com/playlist/1bPLWYa3dyie3wYKWa6n5Q?si=ae3c4f2789014517"
+                  target="_blank"
+                  class="spotify"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-spotify"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"
+                    /></svg
+                  >Spotify
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="playlist--buttons-mobile">
+          <div class="playlist--button">
+            <a
+              href="https://music.apple.com/pl/playlist/chill/pl.u-11zBXPyuN7M0P6A"
+              target="_blank"
+              class="apple-music"
+            >
+              <ion-icon
+                name="musical-notes"
+                class="small-content--icon"
+              ></ion-icon>
+              Apple Music</a
+            >
+            <a
+              href="https://open.spotify.com/playlist/1bPLWYa3dyie3wYKWa6n5Q?si=ae3c4f2789014517"
+              target="_blank"
+              class="spotify"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-spotify"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.434-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"
+                /></svg
+              >Spotify
+            </a>
+          </div>
+        </div>
+
+        <!-- <span class="playlist--description"
+XYZ
+        </span> -->
+
+        <div class="border"></div>
+
+        <iframe
+          id="embedPlayer"
+          src="https://embed.music.apple.com/pl/playlist/3am/pl.u-aZb0kgvT1mWExpN?app=music&amp;itsct=music_box_player&amp;itscg=30200&amp;ls=1&amp;theme=dark"
+          height="450px"
+          frameborder="0"
+          sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+          allow="autoplay *; encrypted-media *; clipboard-write"
+          style="
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+            border-radius: 16px;
+            transform: translateZ(0px);
+            animation: 2s ease 0s 6 normal none running loading-indicator;
+          "
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="left">
+          <span
+            >Made with <ion-icon name="heart" class="icon"></ion-icon> by Kacper
+            Polarczyk</span
+          >
+        </div>
+
+        <div class="right">
+          <a href="./contact/">
+            <div class="social-media--icons">
+              <ion-icon name="mail" class="hover"></ion-icon>
+            </div>
+          </a>
+          <a href="https://discord.com/users/MasterCode#0001">
+            <div class="social-media--icons">
+              <ion-icon name="logo-discord" class="hover"></ion-icon>
+            </div>
+          </a>
+          <a href="https://github.com/KacperPolarczyk">
+            <div class="social-media--icons">
+              <ion-icon name="logo-github" class="hover"></ion-icon>
+            </div>
+          </a>
+          <a href="https://twitter.com/KacperPolarczyk">
+            <div class="social-media--icons">
+              <ion-icon name="logo-twitter" class="hover"></ion-icon>
+            </div>
+          </a>
+          <a href="#">
+            <div class="social-media--icons">
+              <ion-icon name="logo-linkedin" class="hover"></ion-icon>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!-- JS -->
+  <script src="../src/js/nav.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.2.min.js"
+    integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA="
+    crossorigin="anonymous"
+  ></script>
+</html>
