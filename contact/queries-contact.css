@@ -3,7 +3,19 @@
 /* ****************************** */
 
 @media (max-width: 44em) {
-  .contact-grid {
-    grid-template-columns: 1fr;
+  .contact-button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 44em) {
+  .contact-button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 25em) {
+  .contact-button {
+    width: 100%;
   }
 }
