@@ -137,73 +137,48 @@
     <!-- Contact form -->
     <section class="container">
       <div class="contact">
-        <div class="heading">
-          <ion-icon name="call" class="small-heading--icon"></ion-icon>
-          <span>Contact</span>
-        </div>
-
         <div class="content">
           <div class="img">
             <img src="../src/img/Contact/Contact.png" alt="Memoji" />
           </div>
 
-          <div class="contact-box">
-            <form class="contact--form">
-              <div class="contact-grid">
-                <div>
-                  <label for="full-name">Enter your name</label>
-                  <input
-                    id="full-name"
-                    type="text"
-                    placeholder="John Smith"
-                    required
-                  />
-                </div>
+          <span class="contact--name">Kacper Polarczyk</span>
+          <span class="contact--text"
+            >A beginner Front-End Developer, freelancer and creative
+            designer.</span
+          >
 
-                <div>
-                  <label for="email">Your email address</label>
-                  <input
-                    id="email"
-                    type="email"
-                    placeholder="hello@example.com"
-                    required
-                  />
-                </div>
+          <div class="contact-buttons">
+            <a href="mailto:Placeholder">
+              <div class="contact-button">
+                <ion-icon name="mail" class="hover"></ion-icon>
+                <span class="contact-details">E-mail</span>
               </div>
-
-              <div>
-                <label for="select-service">Type of service</label>
-                <select id="select-service">
-                  <option value="">Please choose one option:</option>
-                  <option value="Front-end--design">
-                    Front-end Development & Web Design
-                  </option>
-                  <option value="Front-end development">
-                    Front-end Development
-                  </option>
-                  <option value="Web Design">Web Design</option>
-                  <option value="SEO">SEO</option>
-                  <option value="others">Other</option>
-                </select>
+            </a>
+            <a href="https://twitter.com/KacperPolarczyk" target="_blank">
+              <div class="contact-button">
+                <ion-icon name="logo-twitter" class="hover"></ion-icon>
+                <span class="contact-details">Twitter</span>
               </div>
-
-              <div>
-                <label for="message"
-                  >Message <span class="optional">(Optional)</span></label
-                >
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Message"
-                ></textarea>
-
-                <div class="btn--contact">
-                  <button class="btn--cta">
-                    Submit (Soon) &nbsp; <ion-icon name="send"></ion-icon>
-                  </button>
-                </div>
+            </a>
+            <a href="https://github.com/KacperPolarczyk" target="_blank">
+              <div class="contact-button">
+                <ion-icon name="logo-github" class="hover"></ion-icon>
+                <span class="contact-details">Github</span>
               </div>
-            </form>
+            </a>
+            <a class="tooltip" data-tooltip="MasterCode #0001">
+              <div class="contact-button">
+                <ion-icon name="logo-discord" class="hover"></ion-icon>
+                <span class="contact-details">Discord</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="contact-button">
+                <ion-icon name="logo-linkedin" class="hover"></ion-icon>
+                <span class="contact-details">LinkedIn</span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
@@ -220,12 +195,16 @@
         </div>
 
         <div class="right">
-          <a href="./contact/">
+          <a href="mailto:Placeholder">
             <div class="social-media--icons">
               <ion-icon name="mail" class="hover"></ion-icon>
             </div>
           </a>
-          <a href="https://discord.com/users/MasterCode#0001">
+          <a
+            class="tooltip"
+            data-tooltip="MasterCode #0001"
+            href="https://discord.com/users/MasterCode#0001"
+          >
             <div class="social-media--icons">
               <ion-icon name="logo-discord" class="hover"></ion-icon>
             </div>
