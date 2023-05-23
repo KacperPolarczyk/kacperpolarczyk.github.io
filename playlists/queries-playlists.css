@@ -8,3 +8,30 @@
     margin-bottom: 3.6rem;
   }
 }
+
+@media (max-width: 55em) {
+  .playlists-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .playlist {
+    flex-direction: row;
+    align-items: center;
+    padding: 1.8rem;
+  }
+
+  .playlist--img {
+    display: flex;
+    align-self: start;
+    justify-content: start;
+
+    margin-bottom: 0rem;
+  }
+
+  .playlist-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 16px;
+    transform: translateY(1px);
+  }
+}
