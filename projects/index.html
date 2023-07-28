@@ -32,12 +32,12 @@
     <!-- iOS / MacOS Safari Theme Color -->
     <meta
       name="theme-color"
-      content="#121213"
+      content="#0e0e0f"
       media="(prefers-color-scheme: light)"
     />
     <meta
       name="theme-color"
-      content="#121213"
+      content="#0e0e0f"
       media="(prefers-color-scheme: dark)"
     />
 
@@ -94,10 +94,10 @@
           <div class="nav-right">
             <div class="nav-hyperlinks">
               <a class="nav--hyperlink" href="../">Home</a>
-              <a class="nav--hyperlink" href="../about-me/">About me</a>
+              <a class="nav--hyperlink" href="../about-me/">About</a>
               <a class="nav--hyperlink active" href="../projects/">Projects</a>
               <!-- <a class="nav--hyperlink" href="#">Blog</a> -->
-              <a class="nav--hyperlink" href="../contact/">Contact</a>
+              <a class="nav--hyperlink" href="../uses/">Uses</a>
             </div>
 
             <div class="btn--mobile-menu">
@@ -127,9 +127,9 @@
       <div class="nav-mobile-container">
         <div class="mobile-hyperlinks">
           <a class="mobile--hyperlink" href="../">Home</a>
-          <a class="mobile--hyperlink" href="../about-me/">About me</a>
+          <a class="mobile--hyperlink" href="../about-me/">About</a>
           <a class="mobile--hyperlink active" href="../projects/">Projects</a>
-          <a class="mobile--hyperlink" href="../contact/">Contact</a>
+          <a class="mobile--hyperlink" href="../uses/">Uses</a>
         </div>
       </div>
     </div>
@@ -138,7 +138,6 @@
     <section class="container">
       <div class="projects">
         <div class="heading">
-          <ion-icon name="apps" class="small-heading--icon"></ion-icon>
           <span>Projects</span>
         </div>
 
@@ -188,13 +187,13 @@
                 href="https://kacperpolarczyk.github.io/OmniFood/"
                 target="_blank"
                 class="button btn--purple"
-                >Live demo</a
+                >Live Demo</a
               >
               <a
                 href="https://github.com/KacperPolarczyk/OmniFood"
                 target="_blank"
                 class="button tertiary"
-                >Github</a
+                >Details</a
               >
             </div>
           </div>
@@ -230,87 +229,78 @@
           </div>
 
           <div class="projects-grid">
-            <div class="project">
-              <div class="project--heading">
-                <div>
-                  <img
-                    src="../src/img/omnifood-icon.png"
-                    class="project-icon"
-                    alt="Project logo - Omnifood"
-                  />
-                </div>
-                <div class="project-details">
-                  <div class="project-name">
-                    <span>OmniFood</span>
-                  </div>
-                  <div class="project-category">
-                    <span>HTML &#x2022; CSS &#x2022; JS</span>
-                  </div>
-                </div>
-              </div>
+            <a
+              href="https://kacperpolarczyk.tech/OmniFood/"
+              target="_blank"
+              class="project"
+            >
+              <picture class="project-image omnifood">
+                <source
+                  srcset="../src/img/Projects/Omnifood.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../src/img/Projects/Omnifood.png"
+                  type="image/png"
+                />
 
-              <div class="category">
-                <div class="e-commerce"></div>
-              </div>
-
-              <div class="project--content">
-                <div class="buttons">
-                  <a
-                    href="https://kacperpolarczyk.github.io/OmniFood/"
-                    target="_blank"
-                    class="button btn--purple"
-                    >Live demo</a
-                  >
-                  <a
-                    href="https://github.com/KacperPolarczyk/OmniFood"
-                    class="button tertiary"
-                    target="_blank"
-                    >Github</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="project">
-              <div class="project--heading">
-                <div>
-                  <img
-                    src="../src/img/project-icon.png"
-                    class="project-icon"
-                    alt="Project logo - Kacper Polarczyk Portfolio Website"
-                  />
-                </div>
-                <div class="project-details">
-                  <div class="project-name">
-                    <span>Personal Portfolio</span>
+                <img
+                  src="../src/img/Projects/Omnifood.png"
+                  alt="OmniFood Project"
+                />
+              </picture>
+              <div class="project-details">
+                <div class="project--heading">
+                  <div>
+                    <img
+                      src="../src/img/omnifood-icon.png"
+                      class="project-icon"
+                      alt="Project logo - Omnifood"
+                    />
                   </div>
-                  <div class="project-category">
-                    <span>HTML &#x2022; CSS &#x2022; JS</span>
+                  <div class="project-info">
+                    <div class="project-name">
+                      <span>OmniFood</span>
+                    </div>
+                    <div class="project-category">
+                      <span>E-commerce</span>
+                    </div>
                   </div>
                 </div>
               </div>
+            </a>
 
-              <div class="category">
-                <div class="portfolio"></div>
-              </div>
-
-              <div class="project--content">
-                <div class="buttons">
-                  <a
-                    href="../index.html"
-                    target="_blank"
-                    class="button btn--purple"
-                    >Live demo</a
-                  >
-                  <a
-                    href="https://github.com/KacperPolarczyk/kacperpolarczyk.github.io"
-                    class="button tertiary"
-                    target="_blank"
-                    >Github</a
-                  >
+            <a
+              href="https://kacperpolarczyk.tech/"
+              target="_blank"
+              class="project"
+            >
+              <picture class="project-image personal-portfolio">
+                <img
+                  src="../src/img/Projects/PersonalPortfolio-Mockup.png"
+                  alt="OmniFood Project"
+                />
+              </picture>
+              <div class="project-details">
+                <div class="project--heading">
+                  <div>
+                    <img
+                      src="../src/img/project-icon.png"
+                      class="project-icon"
+                      alt="Project logo - Kacper Polarczyk Portfolio Website"
+                    />
+                  </div>
+                  <div class="project-info">
+                    <div class="project-name">
+                      <span>Personal Portfolio</span>
+                    </div>
+                    <div class="project-category">
+                      <span>Portfolio</span>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
@@ -327,16 +317,12 @@
         </div>
 
         <div class="right">
-          <a href="./contact/">
+          <a href="mailto:Placeholder">
             <div class="social-media--icons">
               <ion-icon name="mail" class="hover"></ion-icon>
             </div>
           </a>
-          <a
-            class="tooltip"
-            data-tooltip="MasterCode #0001"
-            href="https://discord.com/users/MasterCode#0001"
-          >
+          <a href="https://discordlookup.com/user/428514643879657473">
             <div class="social-media--icons">
               <ion-icon name="logo-discord" class="hover"></ion-icon>
             </div>
@@ -351,7 +337,7 @@
               <ion-icon name="logo-twitter" class="hover"></ion-icon>
             </div>
           </a>
-          <a href="#">
+          <a href="https://linkedin.com/in/kacper-polarczyk">
             <div class="social-media--icons">
               <ion-icon name="logo-linkedin" class="hover"></ion-icon>
             </div>

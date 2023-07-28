@@ -1,0 +1,128 @@
+/* Heading */
+.heading {
+  display: flex;
+  flex-direction: row;
+
+  gap: 1.8rem;
+}
+
+.heading .small-heading--icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e9ecef;
+
+  font-size: 4.4rem;
+}
+
+.heading span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3.6rem;
+  font-weight: 700;
+  color: #e9ecef;
+}
+
+/* Uses */
+
+.uses {
+  display: block;
+  padding-top: 6.4rem;
+}
+
+.desk {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+
+  padding-top: 4.8rem;
+  padding-bottom: 2.4rem;
+  margin-left: 3.6rem;
+}
+
+.general-apps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+
+  padding-top: 2.4rem;
+  padding-bottom: 1.8rem;
+  margin-left: 3.6rem;
+}
+
+.dev-apps {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+
+  padding-top: 2.4rem;
+  padding-bottom: 1.8rem;
+  margin-left: 3.6rem;
+}
+
+.title {
+  display: block;
+
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #e9ecef;
+  padding-bottom: 1.8rem;
+}
+
+.uses-container {
+  padding-bottom: 2.8rem;
+}
+
+.element {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.8rem;
+
+  color: #e9ecef;
+
+  padding-bottom: 1.2rem;
+}
+
+.element {
+  font-size: 2rem;
+}
+
+.element svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: #e9ecef;
+  fill: #e9ecef;
+
+  pointer-events: none;
+}
+
+.element span {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.uses-content {
+  display: block;
+  color: #a3a3a3;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.uses-content .link:link,
+.uses-content .link:visited {
+  color: #a3a3a3;
+  text-decoration: 3px underline;
+  text-decoration-color: #343a40;
+
+  transition: all 0.2s;
+}
+
+.uses-content .link:hover,
+.uses-content .link:active {
+  text-decoration-color: #a3a3a3;
+}
