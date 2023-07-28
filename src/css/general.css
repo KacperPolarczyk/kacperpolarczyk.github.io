@@ -29,7 +29,7 @@ Large - 1.8
 --- 02 COLORS ---
 
 Heading: #e9ecef
-Body background: #121213
+Body background: #0e0e0f
 
 - Primary: #b197fc
 - Tints:
@@ -38,15 +38,21 @@ Body background: #121213
 
 #a3a3a3 (Text)
 
-#212529 (Object background)
+#1c1c1c (Object background)
 
-#1e1e20 (Footer)
+#18181B (Footer)
 
-### Cards ###
+### Buttons ###
+
+#18181b (Background)
+
+#9775fa (Border - hover)
+
+### Cards - small ###
 
 #343a40 (Card border)
 
-#1e1e20 (Card hover background)
+#1a1a1b (Card background - hover)
 
 --- 05 SHADOWS ---
 
@@ -78,7 +84,7 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1;
   font-weight: 400;
-  background-color: #121213;
+  background-color: #0e0e0f;
 }
 
 .container {
@@ -106,7 +112,7 @@ nav {
   padding: 0 12.6rem;
   z-index: 999;
 
-  background-color: #121213a2;
+  background-color: #0e0e0fa2;
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
 
@@ -141,7 +147,7 @@ nav {
 .nav-logo:hover,
 .nav-logo:active {
   cursor: pointer;
-  background-color: #1e1e20;
+  background-color: #1c1c1c;
 }
 
 .nav-logo img {
@@ -157,7 +163,7 @@ nav {
   text-decoration: none;
 
   font-size: 1.55rem;
-  margin-left: 0.2rem;
+  margin-left: 1rem;
   font-weight: 500;
   letter-spacing: -0.25px;
 
@@ -173,14 +179,15 @@ nav {
 
 .nav-hyperlinks .active:link,
 .nav-hyperlinks .active:visited {
-  background-color: #212529;
-  color: #9775fa;
+  background-color: #fff;
+  color: #18181b;
   font-weight: 500;
 }
 
 .nav-hyperlinks .nav--hyperlink:hover,
 .nav-hyperlinks .nav--hyperlink:active {
-  background-color: #212529;
+  color: #18181b;
+  background-color: #e9ecef;
 }
 
 /* Navbar - mobile version */
@@ -237,20 +244,21 @@ nav {
 
 .mobile-hyperlinks .active:link,
 .mobile-hyperlinks .active:visited {
-  background-color: #212529;
-  color: #9775fa;
+  background-color: #fff;
+  color: #18181b;
   font-weight: 500;
 }
 
 .mobile-hyperlinks .mobile--hyperlink:hover,
 .mobile-hyperlinks .mobile--hyperlink:active {
-  background-color: #212529;
+  color: #18181b;
+  background-color: #e9ecef;
 }
 
 /* Menu - icon */
 
 nav .btn--mobile-menu {
-  background-color: #1e1e20;
+  background-color: #18181b;
   border-radius: 16px;
 }
 
@@ -337,8 +345,8 @@ nav .btn--mobile-menu {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
-  color: #e9ecef;
-  background-color: #212529;
+  color: #fff;
+  background-color: #27272a;
   border-radius: 16px;
   padding: 1.2rem 2.4rem;
   font-size: 1.6rem;
@@ -370,7 +378,7 @@ footer {
 
   height: 6.4rem;
   padding: 0 12.6rem;
-  background-color: #1e1e20;
+  background-color: #18181b;
 }
 
 .footer .left {
@@ -415,53 +423,4 @@ footer {
   font-size: 2.4rem;
 
   transition: all 0.3s;
-}
-
-/* Tooltip */
-
-.tooltip {
-  position: relative;
-}
-
-/* Tooltip box */
-.tooltip:before {
-  content: attr(data-tooltip);
-  position: absolute;
-  width: 130px;
-  background-color: #1e1e20;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-  line-height: 1.2;
-  border-radius: 6px;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.2s;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -60px;
-  font-size: 0.85em;
-  visibility: hidden;
-  transform: scale(130%);
-}
-
-/* Tooltip arrow */
-.tooltip:after {
-  content: "";
-  position: absolute;
-  bottom: 75%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  opacity: 0;
-  transition: opacity 0.2s;
-  border-color: #1e1e20 transparent transparent transparent;
-  visibility: hidden;
-}
-
-.tooltip:hover:before,
-.tooltip:hover:after {
-  opacity: 1;
-  visibility: visible;
 }

@@ -26,3 +26,9 @@
     height: auto;
   }
 }
+
+@media (max-width: 52em) {
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -20,8 +20,8 @@
   align-items: center;
   justify-content: center;
 
-  font-size: 3.2rem;
-  font-weight: 600;
+  font-size: 3.6rem;
+  font-weight: 700;
   color: #e9ecef;
 }
 
@@ -140,20 +140,68 @@
   flex-direction: column;
   align-items: start;
 
-  background-color: transparent;
+  overflow: hidden;
+
+  gap: 0rem;
+
+  padding: 0rem;
+  border: none;
+  border-radius: 16px;
+
+  background-color: #18181b;
+
+  transition: all 0.3s;
+}
+
+.project:hover,
+.project:active {
+  border: 0;
+  background-color: #27272a;
+  cursor: pointer;
+}
+
+.project-image {
+  display: block;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 16px 16px 0px 0px;
+
+  padding: 6.4rem 2.4rem 6.4rem 2.4rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
+
+  margin: 3.6rem 0;
+}
+
+.project-details {
+  padding: 1.8rem 1.8rem 1.8rem 1.8rem;
+  gap: 1.8rem;
+
+  width: 100%;
+
+  border-radius: 0px 0px 16px 16px;
+
+  transition: 0.2s all;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
 .project--heading {
   display: flex;
   align-items: center;
   gap: 1.8rem;
-}
-
-.project:hover,
-.project:active {
-  background-color: transparent;
-  border: 1.5px solid #343a40;
-  cursor: default;
 }
 
 .project-icon {
@@ -175,47 +223,21 @@
   flex-direction: column;
 }
 
-.project--img img {
-  background-color: #212529;
-  padding: 1.2rem;
-  border-radius: 16px;
-  width: 100%;
-  height: auto;
-}
-
-.category {
+.description {
   display: flex;
   flex-direction: row;
 }
 
-.category .e-commerce::after {
-  content: "E-commerce";
-  text-transform: uppercase;
-  display: block;
-
-  font-family: "Roboto Mono", monospace;
-  font-size: 1.4rem;
-  font-weight: 500;
-  padding: 0.6rem 1.2rem;
-
-  color: #1c7ed6;
-  background-color: #030d15;
-  border: 1px solid #1971c1;
-  border-radius: 16px;
+.description p {
+  font-size: 1.6rem;
+  color: #a3a3a3;
+  line-height: 1.6;
 }
 
-.category .portfolio::after {
-  content: "Portfolio";
-  text-transform: uppercase;
-  display: block;
+.omnifood img {
+  background-color: #fdf2e9;
+}
 
-  font-family: "Roboto Mono", monospace;
-  font-size: 1.4rem;
-  font-weight: 500;
-  padding: 0.6rem 1.2rem;
-
-  color: #868e96;
-  background-color: #0d0e0f;
-  border: 1px solid #798087;
-  border-radius: 16px;
+.personal-portfolio img {
+  background-color: #1c1c1c;
 }

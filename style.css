@@ -63,7 +63,7 @@
   align-items: center;
   justify-content: space-around;
 
-  background-color: #212529;
+  background-color: #18181b;
   border-radius: 16px;
 }
 
@@ -115,7 +115,7 @@
 .about-me-left img {
   padding-right: 0.4rem;
 
-  background-color: #212529;
+  background-color: #18181b;
   border-radius: 16px;
   width: 100%;
   height: auto;
@@ -125,7 +125,7 @@
 
 .about-me-left img:hover,
 .about-me-left img:active {
-  background-color: #1e2125;
+  background-color: #1c1c1c;
   transform: scale(102%);
 }
 
@@ -175,6 +175,45 @@
   color: #9775fa;
 
   pointer-events: none;
+}
+
+/* Features */
+
+.features {
+  display: inline-block;
+  padding-bottom: 4.8rem;
+  width: 100%;
+}
+
+.features--grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: space-between;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  width: auto;
+
+  margin-top: 2.4rem;
+}
+
+.feature .icon {
+  font-size: 3.2rem;
+  padding: 1.8rem;
+  color: #b197fc;
+  background-color: #1e1732;
+  border-radius: 100px;
+
+  pointer-events: none;
+}
+
+.features span {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #e9ecef;
 }
 
 /* Technologies */
@@ -228,6 +267,10 @@
 }
 
 .language .css-icon {
+  transform: translateX(-3px);
+}
+
+.language .csharp-icon {
   transform: translateX(-3px);
 }
 
@@ -295,7 +338,7 @@
 .project:hover,
 .project:active {
   border: 1.5px solid #9775fa;
-  background-color: #1e1e20;
+  background-color: #1a1a1b;
   cursor: pointer;
 }
 
@@ -322,45 +365,6 @@
   color: #a3a3a3;
   font-size: 1.4rem;
   font-weight: 300;
-}
-
-/* Features */
-
-.features {
-  display: inline-block;
-  padding-bottom: 4.8rem;
-  width: 100%;
-}
-
-.features--grid {
-  display: grid;
-  grid-template-columns: repeat(4, auto);
-  justify-content: space-between;
-}
-
-.feature {
-  display: flex;
-  flex-direction: column;
-  gap: 1.8rem;
-  width: auto;
-
-  margin-top: 2.4rem;
-}
-
-.feature .icon {
-  font-size: 3.2rem;
-  padding: 1.8rem;
-  color: #9775fa;
-  background-color: #1e1732;
-  border-radius: 100px;
-
-  pointer-events: none;
-}
-
-.features span {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #e9ecef;
 }
 
 /* Playlists */
@@ -398,7 +402,7 @@
 .playlist:hover,
 .playlist:active {
   border: 1.5px solid #9775fa;
-  background-color: #1e1e20;
+  background-color: #1a1a1b;
   cursor: pointer;
 }
 

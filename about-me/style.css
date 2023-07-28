@@ -20,8 +20,8 @@
   align-items: center;
   justify-content: center;
 
-  font-size: 3.2rem;
-  font-weight: 600;
+  font-size: 3.6rem;
+  font-weight: 700;
   color: #e9ecef;
 }
 
@@ -86,6 +86,50 @@
   margin-bottom: 3.6rem;
 }
 
+/* Experience */
+
+.experience-section {
+  padding: 3.6rem 0;
+}
+
+.experience {
+  padding-top: 6.4rem;
+  padding-bottom: 2.4rem;
+
+  display: flex;
+  gap: 9.6rem;
+  flex-direction: row;
+
+  margin-left: 3.6rem;
+}
+
+.experience .title {
+  display: block;
+
+  font-weight: 500;
+  font-size: 2.2rem;
+  color: #e9ecef;
+
+  padding-bottom: 3.2rem;
+}
+
+.experience .interval {
+  font-size: 1.4rem;
+  color: #a3a3a3;
+}
+
+.experience .description {
+  font-size: 1.6rem;
+  color: #a3a3a3;
+  line-height: 1.6;
+}
+
+.experience-section .border {
+  margin: 1.8rem auto;
+  border-top: 2px solid #343a40;
+  width: 90%;
+}
+
 /* Certificates */
 .certificates-section {
   padding: 3.6rem 0;
@@ -145,101 +189,4 @@
   margin: 1.8rem auto;
   border-top: 2px solid #343a40;
   width: 90%;
-}
-
-/* Uses */
-
-.desk {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.2rem;
-
-  padding-top: 4.8rem;
-  padding-bottom: 2.4rem;
-  margin-left: 3.6rem;
-}
-
-.general-apps {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.2rem;
-
-  padding-top: 2.4rem;
-  padding-bottom: 1.8rem;
-  margin-left: 3.6rem;
-}
-
-.dev-apps {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1.2rem;
-
-  padding-top: 2.4rem;
-  padding-bottom: 1.8rem;
-  margin-left: 3.6rem;
-}
-
-.title {
-  display: block;
-
-  font-size: 2.4rem;
-  font-weight: 700;
-  color: #e9ecef;
-  padding-bottom: 1.8rem;
-}
-
-.uses-container {
-  padding-bottom: 2.8rem;
-}
-
-.element {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 1.8rem;
-
-  color: #e9ecef;
-
-  padding-bottom: 1.2rem;
-}
-
-.element {
-  font-size: 2rem;
-}
-
-.element svg {
-  display: block;
-  width: 20px;
-  height: 20px;
-  color: #e9ecef;
-  fill: #e9ecef;
-
-  pointer-events: none;
-}
-
-.element span {
-  font-size: 1.7rem;
-  font-weight: 500;
-}
-
-.uses-content {
-  display: block;
-  color: #a3a3a3;
-  font-family: "Roboto Mono", monospace;
-  font-weight: 500;
-  font-size: 1.4rem;
-}
-
-.uses-content .link:link,
-.uses-content .link:visited {
-  color: #a3a3a3;
-  text-decoration: 3px underline;
-  text-decoration-color: #343a40;
-
-  transition: all 0.2s;
-}
-
-.uses-content .link:hover,
-.uses-content .link:active {
-  text-decoration-color: #a3a3a3;
 }

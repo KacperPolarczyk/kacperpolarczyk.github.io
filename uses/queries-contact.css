@@ -1,0 +1,19 @@
+@media (max-width: 44em) {
+  /* USES */
+  .desk {
+    grid-template-columns: 1fr;
+  }
+
+  .general-apps {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .dev-apps {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--right .title {
+    display: none;
+  }
+}

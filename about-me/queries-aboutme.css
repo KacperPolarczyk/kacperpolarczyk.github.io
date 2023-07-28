@@ -5,6 +5,35 @@
     padding: 0;
   }
 
+  /* EXPERIENCE */
+
+  .experience {
+    padding-top: 6.4rem;
+    padding-bottom: 2.4rem;
+
+    display: flex;
+    gap: 2.4rem;
+    flex-direction: column;
+
+    margin-left: 0rem;
+  }
+
+  .job {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 1.2rem;
+  }
+
+  .job .title {
+    padding-bottom: 0;
+  }
+
+  .details .title {
+    padding-bottom: 1.2rem;
+  }
+
   /* CERTIFICATES */
 
   .certificate {
@@ -12,24 +41,6 @@
   }
 
   .certificate .buttons {
-    display: none;
-  }
-
-  /* USES */
-  .desk {
-    grid-template-columns: 1fr;
-  }
-
-  .general-apps {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .dev-apps {
-    grid-template-columns: 1fr;
-  }
-
-  .grid--right .title {
     display: none;
   }
 }
